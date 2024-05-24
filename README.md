@@ -10,6 +10,7 @@ Data preprocessing steps were performed using the ImageDataGenerator class from 
 
 # Model Architecture:
 The model was built using convolutional neural network (CNN). The model includes three convolutional layers (Conv2D) and three pooling layers (MaxPooling2D). Then, two fully connected (Dense) layers were added, and softmax activation was used in the last layer.
+![model summary](https://github.com/ismaillburakk/EmotionRecognitionModel/assets/75124682/e4ea2896-1849-4d2e-b6d8-561c96ce3052)
 
 # Training:
 The model was trained on training and validation datasets. Adam optimization was used for training, and categorical cross-entropy loss function was selected. The performance of the model was evaluated using the accuracy metric.
